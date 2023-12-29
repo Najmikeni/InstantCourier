@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">InstantCourier</string>
+    <string-array name="vehicle">
+        <item>Motorcycle</item>
+        <item>Car</item>
+        <item>4x4</item>
+    </string-array>
+</resources>

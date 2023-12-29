@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:gravity="center_horizontal|center_vertical"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <!-- Instant Courier logo -->
+    <ImageView
+        android:id="@+id/profilePicID"
+        android:layout_width="wrap_content"
+        android:layout_height="331dp"
+        app:srcCompat="@drawable/logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="340dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <!-- Quotation -->
+        <TextView
+            android:id="@+id/tvQuote"
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="SPEEDY DELIVERY ANYWHERE NATIONWIDE FROM RM 5.00!"
+            android:textAlignment="center"
+            android:textColor="@color/red"
+            android:textSize="27sp"
+            android:textStyle="bold"
+            android:fontFamily="sans-serif-black"/>
+
+        <!-- Start button logo -->
+        <ImageView
+            android:id="@+id/startLogo"
+            android:layout_width="121dp"
+            android:layout_height="242dp"
+            android:layout_weight="1"
+            android:onClick="startBtnClicked"
+            app:srcCompat="@drawable/start_button" />
+    </LinearLayout>
+
+</LinearLayout>
